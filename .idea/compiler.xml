@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Session1" />
+        <module name="Mapping" />
+        <module name="APIGateway" />
+        <module name="ServiceRegistry" />
+        <module name="Session2" />
+        <module name="Session3" />
+      </profile>
+      <profile name="Annotation profile for ProductService" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="UserService" />
+        <module name="ProductService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Session4" target="17" />
+      <module name="Session5 : JWT" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="APIGateway" options="-parameters" />
+      <module name="Mapping" options="-parameters" />
+      <module name="ProductService" options="-parameters" />
+      <module name="ServiceRegistry" options="-parameters" />
+      <module name="Session2" options="-parameters" />
+      <module name="Session3" options="-parameters" />
+      <module name="Session4" options="-parameters" />
+      <module name="Session5 : JWT" options="-parameters" />
+      <module name="UserService" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Mapping/pom.xml" />
+        <option value="$PROJECT_DIR$/Session1/pom.xml" />
+        <option value="$PROJECT_DIR$/Session2/pom.xml" />
+        <option value="$PROJECT_DIR$/Session3/pom.xml" />
+        <option value="$PROJECT_DIR$/Session5/pom.xml" />
+        <option value="$PROJECT_DIR$/Session6/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservices/APIGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservices/UserService/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservices/ProductService/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservices/ServiceRegistry/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
